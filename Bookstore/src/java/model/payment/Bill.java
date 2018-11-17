@@ -2,7 +2,6 @@ package model.payment;
 
 import java.util.Date;
 import model.order.Order;
-import order.*;
 
 public class Bill {
 

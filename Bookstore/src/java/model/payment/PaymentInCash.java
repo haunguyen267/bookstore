@@ -1,4 +1,4 @@
-package payment;
+package model.payment;
 
 public class PaymentInCash extends PaymentMethod {
 

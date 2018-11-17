@@ -1,7 +1,9 @@
-package order;
+package model.order;
+
+import model.person.Shipper;
 
 
-import person.Shipper;
+
 
 public class Shipping {
 

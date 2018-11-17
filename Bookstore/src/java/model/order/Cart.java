@@ -3,7 +3,8 @@ package model.order;
 import model.book.Book;
 import java.util.ArrayList;
 import java.util.Date;
-import person.*;
+import model.person.Customer;
+
 
 
 public class Cart {
