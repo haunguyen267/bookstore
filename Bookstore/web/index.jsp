@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="vendor/bootstrap/bootstrap.css">
         <title>JSP Page</title>
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <script src="vendor/bootstrap/bootstrap.min.js"></script>
