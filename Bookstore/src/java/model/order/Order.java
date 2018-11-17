@@ -1,6 +1,7 @@
 package model.order;
 
-import payment.*;
+import model.payment.PaymentMethod;
+import model.payment.*;
 
 public class Order {
 
