@@ -1,4 +1,6 @@
-package payment;
+package model.payment;
+
+
 
 import java.util.ArrayList;
 

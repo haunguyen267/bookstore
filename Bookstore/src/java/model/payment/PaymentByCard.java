@@ -1,6 +1,6 @@
-package payment;
+package model.payment;
 
-import person.*;
+import model.person.FullName;
 
 public class PaymentByCard extends PaymentMethod {
 

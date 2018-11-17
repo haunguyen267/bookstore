@@ -1,7 +1,7 @@
-package order;
+package model.order;
 
 import java.util.Date;
-import person.*;
+import model.person.*;
 
 public class ShippingAddress {
 

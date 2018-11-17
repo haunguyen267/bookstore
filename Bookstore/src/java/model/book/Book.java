@@ -1,7 +1,8 @@
 package model.book;
 
 import java.util.Date;
-import person.*;
+import model.person.Author;
+
 
 public class Book {
 
