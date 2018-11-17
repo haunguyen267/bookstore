@@ -15,7 +15,7 @@
         <script src="vendor/bootstrap/bootstrap.min.js"></script>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>ABC</h1>
         <div class="alert alert-success" role="alert">
             A simple success alert—check it out!
         </div>
