@@ -1,0 +1,7 @@
+package person;
+
+public class Manager extends Employee {
+
+	private String position;
+
+}
