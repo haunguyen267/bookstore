@@ -12,7 +12,7 @@ public class Book {
 	private Genre genre;
 	private Language language;
 	private Date releasedDate;
-	private int price;
+	private float price;
 
 	public void Book() {
 		// TODO - implement Book.Book
@@ -91,7 +91,7 @@ public class Book {
 		this.releasedDate = releasedDate;
 	}
 
-	public int getPrice() {
+	public float getPrice() {
 		return this.price;
 	}
 
@@ -99,7 +99,7 @@ public class Book {
 	 * 
 	 * @param price
 	 */
-	public void setPrice(int price) {
+	public void setPrice(float price) {
 		this.price = price;
 	}
 

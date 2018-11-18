@@ -14,7 +14,7 @@ public interface BookDAO {
 	 * 
 	 * @param Book
 	 */
-	void addBook(int Book);
+	void addBook(Book Book);
 
 	/**
 	 * 

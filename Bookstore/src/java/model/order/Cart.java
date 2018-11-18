@@ -5,68 +5,67 @@ import java.util.ArrayList;
 import java.util.Date;
 import model.person.Customer;
 
-
-
 public class Cart {
 
-	private Customer customer;
-	private ArrayList<Book> listBook;
-	private Date timeMadeCart;
-	private int total;
+    private Customer customer;
+    private ArrayList<Item> listItem;
+    private Date timeMadeCart;
+    private float total;
 
-	public Cart() {
-		// TODO - implement Cart.Cart
-		throw new UnsupportedOperationException();
-	}
+    public Cart() {
+    }
 
-	public Customer getCustomer() {
-		return this.customer;
-	}
+    public Customer getCustomer() {
+        return this.customer;
+    }
 
-	/**
-	 * 
-	 * @param customer
-	 */
-	public void setCustomer(Customer customer) {
-		this.customer = customer;
-	}
+    /**
+     *
+     * @param customer
+     */
+    public void setCustomer(Customer customer) {
+        this.customer = customer;
+    }
 
-	public ArrayList getListBook() {
-		// TODO - implement Cart.getListBook
-		throw new UnsupportedOperationException();
-	}
+    public ArrayList<Item> getListItem() {
+        return this.listItem;
+    }
 
-	/**
-	 * 
-	 * @param listBook
-	 */
-	public void setListBook(ArrayList listBook) {
-		// TODO - implement Cart.setListBook
-		throw new UnsupportedOperationException();
-	}
+    /**
+     *
+     * @param listBook
+     */
+    public void setListBook(ArrayList listItem) {
+        // TODO - implement Cart.setListBook
+        this.listItem = listItem;
+    }
 
-	public Date getTimeMadeCart() {
-		return this.timeMadeCart;
-	}
+    public Date getTimeMadeCart() {
+        return this.timeMadeCart;
+    }
 
-	/**
-	 * 
-	 * @param timeMadeCart
-	 */
-	public void setTimeMadeCart(Date timeMadeCart) {
-		this.timeMadeCart = timeMadeCart;
-	}
+    /**
+     *
+     * @param timeMadeCart
+     */
+    public void setTimeMadeCart(Date timeMadeCart) {
+        this.timeMadeCart = timeMadeCart;
+    }
 
-	public int getTotal() {
-		return this.total;
-	}
+    public float getTotal() {
+        float sum = 0;
+        for (Item item : listItem) {
+            sum += item.getPrice() * item.getQuantity();
+        }
+        return sum;
+    }
 
-	/**
-	 * 
-	 * @param total
-	 */
-	public void setTotal(int total) {
-		this.total = total;
-	}
+    public void setTotal(float total) {
+        this.total = total;
+    }
 
+    /**
+     *
+     * @param total
+     */
 }
